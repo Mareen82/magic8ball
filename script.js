@@ -24,7 +24,7 @@ $("#answer").hide();
 $("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/answerside.png");
 
 
-var questionButton = prompt("Geef me een ja/nee vraag");
+var questionButton = prompt("Give me a yes/no question");
 
 
 magic8Ball.askQuestion(questionButton);
